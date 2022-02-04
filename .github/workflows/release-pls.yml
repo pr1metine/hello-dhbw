@@ -15,7 +15,7 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
       - name: Test compile
-        run: tectonic src/template.tex --outdir build
+        run: make build
 
       - uses: google-github-actions/release-please-action@v3.0.0
         id: release
@@ -26,6 +26,7 @@ jobs:
         uses: svenstaro/upload-release-action@v2
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: build/template.pdf
+          file: build/*.pdf
+          file_glob: true
           tag: ${{ steps.release.outputs.tag_name }}
         if: ${{ steps.release.outputs.release_created }}
