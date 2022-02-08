@@ -16,6 +16,13 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           tectonic-version: latest
           biber-version: 2.16
+      - uses: actions/cache@v2
+        name: Tectonic Cache
+        with:
+          path: ~/.cache/Tectonic
+          key: ${{ runner.os }}-tectonic-${{ hashFiles('**/*.tex') }}
+          restore-keys: |
+           ${{ runner.os }}-tectonic-
       - name: Test compile
         run: make build
 
