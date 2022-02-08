@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.0.1](https://github.com/pr1metine/hello-dhbw/compare/v1.0.0...v1.0.1) (2022-02-08)
+
+
+### Bug Fixes
+
+* **ci:** Add biber support to CI ([4fe7887](https://github.com/pr1metine/hello-dhbw/commit/4fe7887825664ca7fa7611d36dce1bce8aee08f8))
+* **ci:** Produce correct PDF ([5781851](https://github.com/pr1metine/hello-dhbw/commit/57818514c2ba699c4e6c10e5161a06a3b6e15c67))
+* **ci:** Specify correct biber version ([a3326aa](https://github.com/pr1metine/hello-dhbw/commit/a3326aafc78eacc9223ead235f53e81e60bdeb82))
+
 ## 1.0.0 (2022-02-04)
 
 
