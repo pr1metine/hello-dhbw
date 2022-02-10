@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/pr1metine/hello-dhbw/compare/v1.0.1...v1.1.0) (2022-02-10)
+
+
+### Features
+
+* Begin personal introduction ([426a3e4](https://github.com/pr1metine/hello-dhbw/commit/426a3e4a84638b8bcbbb9b1a1493155522e22c04))
+
 ### [1.0.1](https://github.com/pr1metine/hello-dhbw/compare/v1.0.0...v1.0.1) (2022-02-08)
 
 
