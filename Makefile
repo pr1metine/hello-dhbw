@@ -1,6 +1,6 @@
 all: open
 
-ENTRYPOINT := ErsterTest
+ENTRYPOINT := Vorstellung
 
 .PHONY: open, build
 build build/$(ENTRYPOINT).pdf : src/$(ENTRYPOINT).tex
