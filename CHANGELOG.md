@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0-rc1](https://github.com/pr1metine/hello-dhbw/compare/v1.1.0...v2.0.0-rc1) (2022-02-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* v2.0.0-rc1
+
+### Features
+
+* Create first draft ([9794b61](https://github.com/pr1metine/hello-dhbw/commit/9794b61a81f76cf75b31a4e7ffab327595daf735))
+
 ## [1.1.0](https://github.com/pr1metine/hello-dhbw/compare/v1.0.1...v1.1.0) (2022-02-10)
 
 
