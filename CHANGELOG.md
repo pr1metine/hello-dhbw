@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/pr1metine/hello-dhbw/compare/v2.0.0-rc1...v2.0.0) (2022-02-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* 2.0.0
+
+### Features
+
+* Further improve draft ([27c6898](https://github.com/pr1metine/hello-dhbw/commit/27c6898210f17dc54143499247f2639541b08fbd))
+
 ## [2.0.0-rc1](https://github.com/pr1metine/hello-dhbw/compare/v1.1.0...v2.0.0-rc1) (2022-02-11)
 
 
